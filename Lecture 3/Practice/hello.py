@@ -2,8 +2,8 @@ def main():
     x = get_int()
     print(f"x is {x}")
 
+#Define an integer collection function
 def get_int():
-#Initiate loop
     while True:
 
 #Gather integer from user
@@ -16,7 +16,7 @@ def get_int():
 
 #Print the entered value
         else:
-            break
-    return(x)
+            return(x)
 
+#Call the main funtion
 main()    
